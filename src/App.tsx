@@ -25,7 +25,7 @@ import {
   primaryColorConst,
   themeConst,
 } from "./consts/parameters";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 
 const urlParams = new URL(window.location.toString()).searchParams;
 const contractAddress = urlParams.get("contract") || contractConst || "";
